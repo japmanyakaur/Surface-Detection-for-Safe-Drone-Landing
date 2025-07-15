@@ -2,7 +2,7 @@
 This project simulates a vision-based iṣntelligent landing system for lunar exploration missions, inspired by ISRO's Chandrayaan series. Using YOLOv8 object detection and OpenCV, the system identifies unsafe regions (craters) and highlights safe landing zones for drones on the Moon’s rugged surface.
 
 
-##OBJECTIVE:
+## OBJECTIVE:
 The goal is to help autonomous drones safely land on unfamiliar lunar terrain by:
 
 Detecting craters (unsafe zones)
@@ -11,7 +11,7 @@ Identifying flat and obstacle-free areas (safe zones)
 
 Visualizing this in real-time or from satellite/drone images
 
-##FEATURES:
+## FEATURES:
 YOLOv8 trained on custom lunar crater dataset
 
 Real-time or static image-based surface analysis
@@ -24,7 +24,7 @@ Overlap checking ensures craters do not interfere with landing zones
 
 Designed to support lunar rover or drone landing simulations
 
-##TECH STACK:
+## TECH STACK:
 TOOL	    PURPOSE
 YOLOv8	    Object detection of craters
 OpenCV	    Image processing and visualization
@@ -32,13 +32,13 @@ Python	    Core programming language
 Roboflow	Dataset annotation and augmentation
 LabelImg	Manual annotation for custom classes
 
-##DATASET:
+## DATASET:
 The dataset was collected and annotated using Roboflow and LabelImg
 Class used: Crater
 Format: YOLO format (compatible with Ultralytics)
 
 
-##SAMPLE OUTPUT:
+## SAMPLE OUTPUT:
 
 Craters are marked using green bounding boxes
 
@@ -46,7 +46,7 @@ Safe landing zones are highlighted with blue grid boxes
 
 The system avoids grid regions overlapping with craters
 
-##HOW IT WORKS:
+## HOW IT WORKS:
 Load the trained YOLOv8 model
 
 Run object detection on a given image
