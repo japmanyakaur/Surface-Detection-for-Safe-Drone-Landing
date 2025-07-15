@@ -1,4 +1,4 @@
-# Surface Detection for Safe Drone Landing (IṢSRO IROC-25)
+# Surface Detection for Safe Drone Landing (ISRO IROC-25)
 This project simulates a vision-based iṣntelligent landing system for lunar exploration missions, inspired by ISRO's Chandrayaan series. Using YOLOv8 object detection and OpenCV, the system identifies unsafe regions (craters) and highlights safe landing zones for drones on the Moon’s rugged surface.
 
 
