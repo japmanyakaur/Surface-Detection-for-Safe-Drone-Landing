@@ -46,6 +46,9 @@ Safe landing zones are highlighted with blue grid boxes
 
 The system avoids grid regions overlapping with craters
 
+<img width="963" height="764" alt="image" src="https://github.com/user-attachments/assets/798ef7b3-db88-49ed-9485-2165d2cab885" />
+
+
 ## HOW IT WORKS:
 Load the trained YOLOv8 model
 
